@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Program that introduces boolean statements and different operands.
- * 
+ *
  *
  * @author Kieran Sowerby
  */
