@@ -1,19 +1,19 @@
 package Chapter5;
 
 import java.util.Scanner;
-/**Program to count votes
+
+/**
+ * Program to count votes
  *
  * @author Kieran Sowerby
  */
-
 public class P5 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String human;

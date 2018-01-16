@@ -2,18 +2,18 @@ package Chapter5;
 
 import java.util.Scanner;
 
-/**Program to reverse strings
+/**
+ * Program to reverse strings
  *
- * @author ks1002445
+ * @author Kieran Sowerby
  */
 public class C5_46 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-
     public static void main(String[] args) {
         String answer, answerReverse;
         Scanner input = new Scanner(System.in);

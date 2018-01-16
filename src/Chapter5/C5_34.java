@@ -2,19 +2,18 @@ package Chapter5;
 
 import java.util.Scanner;
 
-/**Program that plays rock paper scissors.
+/**
+ * Program that plays rock paper scissors.
  *
  * @author Kieran Sowerby
  */
-
 public class C5_34 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -91,4 +90,4 @@ public class C5_34 {
             }
         }
     }
-} 
+}

@@ -3,7 +3,8 @@ package Chapter3;
 import java.util.Scanner;
 
 /**
- * Program that uses comparisons like more than or less than to find out the better option.
+ * Program that uses comparisons like more than or less than to find out the
+ * better option.
  *
  * @author Kieran Sowerby
  */

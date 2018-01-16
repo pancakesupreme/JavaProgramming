@@ -2,18 +2,18 @@ package Chapter6;
 
 import java.util.Scanner;
 
-/**Program that explores the usage of more methods.
+/**
+ * Program that explores the usage of more methods.
  *
  * @author Kieran Sowerby
  */
 public class P6 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -53,12 +53,14 @@ public class P6 {
 
     }
 
-    public static double conversion(double currency, double dollars) {
-        /**
-     * Extra Method
+    /**
+     * method to convert currency to dollars
      *
-     * @param args arguments from command line prompt
+     * @param currency the currency we're converting
+     * @param dollars the amount of dollars we're converting
+     * @return the amount of dollars the currency is equal to
      */
+    public static double conversion(double currency, double dollars) {
 
         if (dollars > 100) {
             return (dollars * 0.95 * currency);

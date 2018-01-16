@@ -2,18 +2,18 @@ package Chapter6;
 
 import java.util.Scanner;
 
-/**Program to insert passwords
+/**
+ * Program to insert passwords
  *
  * @author Kieran Sowerby
  */
 public class C6_18 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String password;
@@ -46,12 +46,13 @@ public class C6_18 {
         }
     }
 
-    public static boolean lengthChecker(String password) {
-        /**
-     * Extra Method
+    /**
+     * method to check password length
      *
-     * @param args arguments from command line prompt
+     * @param password the password itself
+     * @return whether or not the password is too long
      */
+    public static boolean lengthChecker(String password) {
 
         boolean tooLong;
         tooLong = password.length() >= 8;
@@ -59,18 +60,25 @@ public class C6_18 {
 
     }
 
-    public static boolean isValid(String password) {
-        /**
-     * Main Method
+    /**
+     * method to check password matching
      *
-     * @param args arguments from command line prompt
+     * @param password the password we're checking
+     * @return whether or not the password matches
      */
+    public static boolean isValid(String password) {
 
         String n = ".*[0-9].*";
         String a = ".*[A-Z].*";
         return password.matches(n);
     }
 
+    /**
+     * method to check numbers
+     *
+     * @param password the password entered in
+     * @return whether or not the password has the same numbers
+     */
     public static boolean digitCounter(String password) {
         return password.matches("(?=(.*?\\d){2})[a-zA-Z0-9]{2,}");
     }
