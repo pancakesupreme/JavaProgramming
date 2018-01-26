@@ -2,15 +2,18 @@ package Chapter8;
 
 import java.util.Scanner;
 
-/**Program to look at workers and how long they've worked
+/**
+ * Program to look at workers and how long they've worked
  *
  * @author Kieran Sowerby
  */
 public class P8 {
-/**
- * 
- * @param args to take input from the console
- */
+
+    /**
+     * Main Method
+     *
+     * @param args to take input from the console
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double[][] workers = {

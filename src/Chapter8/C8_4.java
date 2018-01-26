@@ -3,15 +3,18 @@ package Chapter8;
 import java.util.Scanner;
 import java.util.Arrays;
 
-/**Program to check people's working hours and their pay.
+/**
+ * Program to check people's working hours and their pay.
  *
  * @author Kieran Sowerby
  */
 public class C8_4 {
-/**
- * 
- * @param args main input from the console
- */
+
+    /**
+     * Main Method
+     *
+     * @param args main input from the console
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[][] employees = {
@@ -41,11 +44,12 @@ public class C8_4 {
         }
         sort(hoursTotal);
     }
-/**
- * 
- * @param array sees if they're parallel or not
- * return void
- */ 
+
+    /**
+     * Method to check the lengths of both arrays
+     *
+     * @param array sees if they're parallel or not return void
+     */
     public static void sort(int[] array) {
         int[] index = new int[8], parallel = new int[8];
         for (int x = 0; x < array.length; x++) {

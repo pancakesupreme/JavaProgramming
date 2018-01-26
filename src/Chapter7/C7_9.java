@@ -2,16 +2,19 @@ package Chapter7;
 
 import java.util.Scanner;
 import java.util.Arrays;
+
 /**
  * Program to look at the smallest number
  *
  * @author Kieran Sowerby
  */
 public class C7_9 {
-/**
- * 
- * @param args 
- */
+
+    /**
+     * Main Method
+     *
+     * @param args input from the main console
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double[] numbers = new double[10];
@@ -21,11 +24,13 @@ public class C7_9 {
         }
         System.out.println("The minimum number is " + min(numbers));
     }
-/**
- * 
- * @param array the array you've used
- * @return the sorted array
- */
+
+    /**
+     * Method to assort the array
+     *
+     * @param array the array you've used
+     * @return the sorted array
+     */
     public static double min(double[] array) {
         Arrays.sort(array);
         return array[0];

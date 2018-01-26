@@ -2,15 +2,18 @@ package Chapter7;
 
 import java.util.Scanner;
 
-/**Program that compares arrays
+/**
+ * Program that compares arrays
  *
  * @author Kieran Sowerby
  */
 public class C7_26 {
-/**
- * 
- * @param args main input from the console
- */
+
+    /**
+     * Main Method
+     *
+     * @param args main input from the console
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] list1, list2;
@@ -38,12 +41,14 @@ public class C7_26 {
             System.out.println("Two lists are not strictly identical.");
         }
     }
-/**
- * 
- * @param list1 the first array
- * @param list2 the second array
- * @return if the arrays are the same length
- */
+
+    /**
+     * Method that checks the lengths of the arrays
+     *
+     * @param list1 the first array
+     * @param list2 the second array
+     * @return if the arrays are the same length
+     */
     public static boolean equals(int[] list1, int[] list2) {
         int rightCounter = 0; // rightCounter determines if each number in loop are correct
 
